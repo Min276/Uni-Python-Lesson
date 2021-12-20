@@ -1,0 +1,16 @@
+#Output
+
+print("is_power(10, 2) returns: ", is_power(10, 2))
+is_power(10, 2) returns:  False
+
+print("is_power(27, 3) returns: ", is_power(27, 3))
+is_power(27, 3) returns:  True
+
+print("is_power(1, 1) returns: ", is_power(1, 1))
+is_power(1, 1) returns:  True
+
+print("is_power(10, 1) returns: ", is_power(10, 1))
+is_power(10, 1) returns:  False
+
+print("is_power(3, 3) returns: ", is_power(3, 3))
+is_power(3, 3) returns:  True

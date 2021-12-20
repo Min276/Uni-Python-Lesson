@@ -1,0 +1,57 @@
+#Question
+
+The discussion topic for this week is stated below:
+
+Programming languages like Python are formal languages with strict syntax rules. But those rules can change over time with newer versions of the programming language. Your textbook covers Python 3, but you may only have access to Python 2. 
+
+Download and install a working Python environment, preferably Python 3, or get an account with the Virtual Computer Lab or PythonAnywhere. Refer to the Software Requirements/Installation section of the course syllabus for details.
+
+Type the statements below into your Python interpreter. For each statement, copy the output into your Discussion Assignment and explain the output. Compare it with any similar examples in the textbook, and describe what it means about your version of Python. 
+
+>>> print 'Hello, World!'
+>>> 1/2
+>>> type(1/2)
+>>> print(01)
+>>> 1/(2/3) 
+
+When you reply to your peers’ submissions, compare their results with yours.
+
+
+
+
+#Answer
+
+When I try to output the first line of code
+print 'Hello, World!'
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print('Hello, World!')?
+It is because print is a function in Python 3, we need to
+add parenthese ( ) after print. But, for Python 2,
+print doesn't need any parentheses ( ) as print is not
+a function in Python 2.
+
+For Second one,
+1/2
+0.5
+In this case, the code just work fine. Arimetic Operator / performs
+division. As 1 is less than 2, the output is decimal number 0.5.
+
+For Third one,
+type(1/2) For this, it shows us the type of the value we wrote between
+type( ) parentheses. Here, the value is floating-point number
+and thus it shows float for the type.
+
+For Fourth one,
+print(01)
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+For this one, the intitial character is being zero, and
+that's why it shows error. We must not put zero
+in at the beginning of any number value except decimal
+or floating number values.
+
+For the final one,
+1/(2/3)
+1.5
+It works just fine. Let me explain how this works
+The reciprocal of 1/(2/3) is 3/2 as it use / which
+performs divisions we can simplify like that.
+So, the answer of 3/2 is 1.5 for sure.
